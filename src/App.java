@@ -24,6 +24,7 @@ public class App {
         frame.add(snakeGame);
         frame.pack(); // ajusta o tamanho do frame para caber nos componentes 
         frame.setVisible(true); // deve ser chamada depois de frame.pack
+        snakeGame.requestFocus();
 
     }
 }
